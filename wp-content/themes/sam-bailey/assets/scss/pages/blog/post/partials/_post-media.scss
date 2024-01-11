@@ -1,0 +1,23 @@
+/* PARTIAL: POST MEDIA
+-------------------------------------------- */
+
+.ptf-post-media {
+	position: relative;
+	width: 100%;
+	backface-visibility: hidden;
+	overflow: hidden;
+
+	img {
+		display: block;
+		margin: 0 auto;
+		backface-visibility: hidden;
+		will-change: transform;
+		transform: scale(1) translateZ(0);
+		transition: transform 300ms ease-out;
+	}
+
+}
+
+.ptf-post:hover .ptf-post-media img {
+	transform: scale(1.2) translateZ(0);
+}

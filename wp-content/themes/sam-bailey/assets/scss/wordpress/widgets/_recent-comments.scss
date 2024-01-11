@@ -1,0 +1,11 @@
+/* ANCHOR: RECENT COMMENTS
+-------------------------------------------- */
+
+.ptf-widget.widget_recent_comments {
+	@extend .ptf-widget.widget_categories;
+
+	li+li {
+		margin-top: 10px;
+	}
+
+}

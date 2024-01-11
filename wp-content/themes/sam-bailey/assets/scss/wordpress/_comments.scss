@@ -1,0 +1,148 @@
+/* WORDPRESS: COMMENTS
+-------------------------------------------- */
+
+.ptf-page-comments {
+	padding-top: 140px;
+	padding-bottom: 200px;
+	border-top: 1px solid var(--ptf-primary-color);
+
+	&__title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 0;
+		margin-bottom: 85px;
+		font-weight: normal;
+	}
+
+	.ptf-comments,
+	.ptf-comments ul.children {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		li.ptf-comment-item {
+			padding: 45px 0;
+
+			&:first-child {
+				padding-top: 0;
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+		}
+
+	}
+
+	.ptf-comments ul.children {
+		margin-top: 90px;
+		margin-left: 115px;
+
+		@include mq('medium') {
+			margin-left: 0;
+		}
+
+		li.ptf-comment-item:last-child {
+			padding-bottom: 0;
+		}
+
+	}
+
+	&__form {
+		margin-top: 75px;
+
+		.ptf-page-comments__title {
+			margin-bottom: 75px;
+			font-weight: 500;
+		}
+
+	}
+
+	&__list .comment-respond {
+		margin: 90px 0 0;
+	}
+
+	&__list,
+	&__form {
+
+		@include mq('xlarge', min) {
+			padding-left: $post-space;
+			padding-right: $post-space;
+		}
+
+	}
+
+	p.form-submit {
+		margin-top: 60px;
+	}
+
+}
+
+/* COMMENT ITEM
+-------------------------------------------- */
+
+.ptf-comment-item__inner {
+	display: flex;
+
+	.ptf-comment-avatar {
+		flex-shrink: 0;
+		margin-right: 35px;
+
+		@include mq('medium') {
+			display: none;
+		}
+
+		img {
+			max-width: 80px;
+			border-radius: 50%;
+		}
+
+	}
+
+	.ptf-comment-content {
+		flex-basis: 100%;
+		width: 100%;
+	}
+
+	.ptf-comment-header {
+		display: flex;
+		align-items: flex-end;
+		font-size: 13px;
+		line-height: 1.5;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+	.ptf-comment-name {
+		margin: 0;
+		margin-right: 3px;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.4;
+		color: var(--ptf-secondary-color);
+		text-transform: uppercase;
+	}
+
+	.ptf-comment-metas::before {
+		content: '/';
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+
+	.ptf-comment-text {
+		margin-top: 10px;
+	}
+
+	.comment-reply-link {
+		@extend .ptf-btn;
+		@extend .ptf-btn--secondary;
+		margin-top: 20px;
+		padding: 5px 25px;
+		font-size: 12px;
+		line-height: 1.2;
+		text-transform: capitalize;
+	}
+
+}

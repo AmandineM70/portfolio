@@ -1,0 +1,43 @@
+/* ANCHOR: RSS
+-------------------------------------------- */
+
+.ptf-widget.widget_rss {
+
+	.ptf-widget__title {
+
+		img {
+			margin-right: 4px;
+			filter: grayscale(100%);
+		}
+
+	}
+
+	li {
+
+		.rsswidget {
+			color: var(--ptf-secondary-color);
+			font-weight: 500;
+		}
+
+		.rss-date {
+			display: block;
+			margin: 10px 0;
+		}
+
+		cite {
+			margin: 10px 0 0;
+
+			&::before {
+				content: '-';
+				margin-right: 6px;
+			}
+
+		}
+
+	}
+
+	li+li {
+		margin-top: 30px;
+	}
+
+}

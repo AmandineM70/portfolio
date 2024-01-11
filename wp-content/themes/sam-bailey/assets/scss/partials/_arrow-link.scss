@@ -1,0 +1,22 @@
+/* PARTIAL: ARROW LINK
+-------------------------------------------- */
+
+.ptf-arrow-link {
+	position: fixed;
+	left: 40px;
+	bottom: 0;
+	width: 38px;
+	height: 38px;
+	transition: all 300ms ease-out;
+	z-index: z('arrow-link');
+
+	@include mq('medium') {
+		left: 15px;
+	}
+
+	&:hover {
+		color: currentColor;
+		transform: translate(10px, -10px);
+	}
+
+}

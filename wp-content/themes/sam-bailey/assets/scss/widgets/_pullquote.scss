@@ -1,0 +1,52 @@
+/* WIDGET: PULLQUOTE
+-------------------------------------------- */
+
+.ptf-pullquote {
+	position: relative;
+	padding: 40px 70px 40px 130px;
+	box-shadow: inset 0 0 0 1px var(--ptf-primary-color);
+
+	@include mq('large') {
+		padding: 115px 40px 40px;
+	}
+
+	@include mq('medium') {
+		padding: 76px 20px 20px;
+	}
+
+	svg {
+		position: absolute;
+		top: 40px;
+		left: 40px;
+		height: 38px;
+		color: var(--ptf-secondary-color);
+
+		@include mq('medium') {
+			top: 20px;
+			left: 20px;
+		}
+
+	}
+
+	&__text {
+		font-size: 20px;
+		color: var(--ptf-primary-color);
+	}
+
+	&__meta {
+		margin-top: 40px;
+		line-height: 1.625;
+	}
+
+	&__name {
+		margin: 0;
+		font-size: 16px;
+		font-weight: normal;
+		color: var(--ptf-secondary-color);
+	}
+
+	&__function {
+		margin-top: 5px;
+	}
+
+}

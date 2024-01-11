@@ -1,0 +1,150 @@
+/* HEADER: OFFCANVAS
+-------------------------------------------- */
+
+.ptf-offcanvas-menu {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 40px 65px;
+	background-color: $c2;
+	transform: translate3d(100%, 0, 0);
+	z-index: z('offcanvas-menu');
+
+	@include admin-sticky-fix;
+
+	@include mq('small', min) {
+		width: 504px;
+	}
+
+	// menu header
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding-bottom: 85px;
+	}
+
+	// navigation
+	&__navigation {
+		height: 100%;
+		overflow-y: auto;
+
+		.sf-menu {
+			overflow: hidden;
+
+			li {
+				display: block;
+				float: none;
+			}
+
+			a {
+				display: inline-block;
+			}
+
+			>li {
+				padding: 10px 0;
+
+				&>a {
+					padding: 8px 0;
+					font-size: 30px;
+					font-weight: 500;
+					line-height: 1.1;
+					letter-spacing: .02em;
+				}
+
+				&:last-child {
+					padding-bottom: 0;
+				}
+
+				&:first-child {
+					padding-top: 0;
+				}
+
+			}
+
+			>li.current-menu-item>a,
+			>li.active>a,
+			>li:hover>a,
+			>li.sfHover>a {
+				color: var(--ptf-secondary-color);
+			}
+
+			ul.sub-menu {
+				position: static;
+				margin-top: 10px;
+				padding-left: 10px;
+
+				ul.sub-menu {
+					margin-top: 0;
+				}
+
+				a {
+					padding: 2px 0;
+					font-size: 15px;
+					line-height: 1.8;
+					font-weight: normal;
+				}
+
+				li.current-menu-item>a,
+				li:hover>a,
+				li.active>a,
+				li.sfHover>a {
+					color: var(--ptf-secondary-color);
+				}
+
+			}
+
+		}
+
+	}
+
+	// menu footer
+	&__footer {
+		padding-top: 100px;
+
+		>div {
+			opacity: 0;
+		}
+
+	}
+
+	// contacts
+	&__socials {
+		margin-bottom: 40px;
+
+		@include mq('small') {
+			display: none;
+		}
+
+		.ptf-social-icon.ptf-social-icon--style-1 {
+			font-size: 18px;
+			line-height: 1;
+		}
+
+		.ptf-social-icon+.ptf-social-icon {
+			margin-left: 32px;
+		}
+
+	}
+
+	// copyright
+	&__copyright {
+		font-size: 14px;
+		line-height: 1.5;
+
+		@media (max-height: 559px) {
+			display: none;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+	}
+
+}

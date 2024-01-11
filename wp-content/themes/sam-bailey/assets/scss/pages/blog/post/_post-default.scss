@@ -1,0 +1,32 @@
+/* POST: DEFAULT
+-------------------------------------------- */
+
+.ptf-post--default {
+
+	.ptf-post-media+.ptf-post-content {
+		padding-top: 30px;
+	}
+
+	.ptf-post-content {
+
+		.ptf-post-meta {
+			margin-bottom: 12px
+		}
+
+		.ptf-post-title {
+			font-size: 32px;
+			line-height: 1.3;
+			font-weight: 500;
+		}
+
+		.ptf-post-excerpt {
+			padding-top: 15px;
+		}
+
+		.ptf-post-footer {
+			padding-top: 25px;
+		}
+
+	}
+
+}

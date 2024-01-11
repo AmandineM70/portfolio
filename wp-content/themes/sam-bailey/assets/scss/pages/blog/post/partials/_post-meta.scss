@@ -1,0 +1,28 @@
+/* PARTIAL: POST META
+-------------------------------------------- */
+
+.ptf-post-meta {
+	font-size: 15px;
+	line-height: 1.3;
+
+	&:not(.ptf-post-meta--style-2) {
+
+		span:first-child {
+			margin-right: 2px;
+			color: var(--ptf-secondary-color);
+
+			&::after {
+				content: '/';
+				margin-left: 4px;
+			}
+
+		}
+
+	}
+
+	&--style-2 {
+		color: var(--ptf-secondary-color);
+		text-transform: uppercase;
+	}
+
+}

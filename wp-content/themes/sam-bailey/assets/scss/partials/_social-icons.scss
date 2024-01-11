@@ -1,0 +1,18 @@
+/* PARTIAL: SOCIAL ICONS
+-------------------------------------------- */
+
+.ptf-social-icon {
+	display: inline-flex;
+}
+
+/* STYLE 1
+-------------------------------------------- */
+
+.ptf-social-icon.ptf-social-icon--style-1 {
+	font-size: 22px;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+}

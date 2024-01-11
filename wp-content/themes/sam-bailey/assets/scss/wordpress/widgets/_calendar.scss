@@ -1,0 +1,23 @@
+/* ANCHOR: CALENDAR
+-------------------------------------------- */
+
+.ptf-widget.widget_calendar {
+
+	tr,
+	td,
+	th {
+		padding: 6px 5px;
+		text-align: center;
+	}
+
+	caption {
+		padding: 15px 0 0;
+		color: inherit;
+	}
+
+	#today {
+		font-weight: 600;
+		background-color: var(--ptf-secondary-color);
+	}
+
+}

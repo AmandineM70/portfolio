@@ -1,0 +1,78 @@
+/* POST: SINGLE POST
+-------------------------------------------- */
+
+.ptf-post--single {
+	padding: 140px 0;
+
+	@include mq('large') {
+		padding: 100px 0;
+	}
+
+	.ptf-post-header {
+		margin-bottom: 45px;
+
+		@include mq('xlarge', min) {
+			padding-left: $post-space;
+			padding-right: $post-space;
+		}
+
+	}
+
+	.ptf-post-content {
+
+		@include mq('xlarge', min) {
+			padding-left: $post-space;
+			padding-right: $post-space;
+		}
+
+	}
+
+	.ptf-post-footer {
+		margin-top: 60px;
+
+		@include mq('xlarge', min) {
+			padding-left: $post-space;
+			padding-right: $post-space;
+		}
+
+		.ptf-post-share,
+		.ptf-post-tags {
+			display: flex;
+			align-items: center;
+
+			h5 {
+				margin-top: 0;
+				margin-bottom: 0;
+				font-weight: 500;
+				font-size: 15px;
+			}
+
+		}
+
+		.ptf-post-tags {
+
+			h5 {
+				margin-right: 6px;
+			}
+
+		}
+
+		.ptf-post-share {
+
+			h5 {
+				margin-right: 6px;
+			}
+
+			a+a {
+				margin-left: 20px;
+			}
+
+		}
+
+		.ptf-post-tags+.ptf-post-share {
+			margin-top: 35px;
+		}
+
+	}
+
+}

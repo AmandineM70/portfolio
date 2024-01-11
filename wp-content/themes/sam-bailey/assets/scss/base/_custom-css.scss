@@ -1,0 +1,78 @@
+.ptf-section[data-anchor="Home"] .ptf-section__content {
+	align-items: flex-end;
+	padding: 140px 80px 140px 100px;
+}
+
+.ptf-section[data-anchor="About"] .ptf-section__content {
+	padding: 120px 80px 100px;
+}
+
+.ptf-section[data-anchor="Education"] .ptf-section__content,
+.ptf-section[data-anchor="Skills"] .ptf-section__content,
+.ptf-section[data-anchor="Testimonials"] .ptf-section__content,
+.ptf-section[data-anchor="News"] .ptf-section__content,
+.ptf-section[data-anchor="Contact"] .ptf-section__content {
+	padding: 170px 80px 150px;
+}
+
+.ptf-section[data-anchor="Projects"] .ptf-section__content {
+	padding: 0 80px;
+}
+
+// @media (max-width: 600px) {
+
+// 	.ptf-section[data-anchor="Home"] .ptf-section__content {
+// 		padding: 140px 80px 140px 100px;
+// 	}
+
+// 	.ptf-section[data-anchor="About"] .ptf-section__content,
+// 	.ptf-section[data-anchor="Education"] .ptf-section__content,
+// 	.ptf-section[data-anchor="Skills"] .ptf-section__content,
+// 	.ptf-section[data-anchor="Testimonials"] .ptf-section__content {
+// 		padding: 50px 30px;
+// 	}
+
+// }
+
+@include mq('large') {
+
+	.ptf-section[data-anchor="News"] .ptf-section__content,
+	.ptf-section[data-anchor="Contact"] .ptf-section__content {
+		padding: 120px 80px 100px;
+	}
+
+}
+
+@include mq('medium') {
+
+	.ptf-section[data-anchor="Home"] .ptf-section__content {
+		padding: 140px 80px 140px 100px;
+	}
+
+	.ptf-section[data-anchor="About"] .ptf-section__content,
+	.ptf-section[data-anchor="Education"] .ptf-section__content,
+	.ptf-section[data-anchor="Skills"] .ptf-section__content,
+	.ptf-section[data-anchor="Testimonials"] .ptf-section__content {
+		padding: 50px 30px 140px;
+	}
+
+	.ptf-section[data-anchor="News"] .ptf-section__content {
+		padding: 80px 45px;
+	}
+
+}
+
+
+@include mq('small') {
+
+	.ptf-section[data-anchor] .ptf-section__content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.ptf-section[data-anchor="Home"] .ptf-section__content {
+		padding-left: 15px;
+	}
+
+
+}

@@ -1,0 +1,38 @@
+/* PAGE: 404
+-------------------------------------------- */
+
+.ptf-page--404 {
+	padding: 30vh 0;
+	text-align: center;
+
+	.ptf-404-icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 150px;
+		width: 150px;
+		margin-bottom: 50px;
+		color: var(--ptf-secondary-color);
+		border-radius: 100%;
+		background-color: var(--ptf-primary-color);
+
+		svg {
+			height: 100px;
+		}
+
+	}
+
+	h1 {
+		margin: 0;
+	}
+
+	p {
+		max-width: 320px;
+		margin: 30px auto 0;
+	}
+
+	.ptf-btn {
+		margin-top: 30px;
+	}
+
+}

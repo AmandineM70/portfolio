@@ -1,0 +1,131 @@
+body {
+    background: #0f0f0f;
+    background-color: #0f0f0f;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    font-family: NeueMontreal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+:root {
+    --ptf-primary-color: #fde3a7;
+    --ptf-secondary-color: #a95847;
+    --ptf-primary-font: SFProDisplay;
+}
+
+::selection {
+    color: #ffffff !important;
+    background-color: #a95847 !important;
+}
+
+::-moz-selection {
+    color: #ffffff !important;
+    background-color: #a95847 !important;
+}
+
+h1,
+.h1 {
+    font-family: NeueMontreal;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: none;
+}
+
+h2,
+.h2 {
+    font-family: NeueMontreal;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: none;
+}
+
+h3,
+.h3 {
+    font-family: NeueMontreal;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.35;
+    text-transform: none;
+}
+
+h4,
+.h4 {
+    font-family: NeueMontreal;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+h5,
+.h5 {
+    font-family: NeueMontreal;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+h6,
+.h6 {
+    font-family: NeueMontreal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+blockquote {
+    font-family: NeueMontreal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-transform: none;
+}
+
+.ptf-btn,
+.comment-reply-link {
+    font-family: NeueMontreal;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+input[type="number"],
+textarea,
+select {
+    font-family: NeueMontreal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+label {
+    font-family: NeueMontreal;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .075em;
+    line-height: 1;
+    text-transform: uppercase;
+}

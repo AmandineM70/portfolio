@@ -1,0 +1,67 @@
+/* WIDGET: BUTTON
+-------------------------------------------- */
+
+.ptf-btn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-decoration: none;
+	border: none;
+	transition: all 300ms ease-out;
+	box-shadow: none;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+	outline: 0;
+	z-index: 1;
+
+	&:disabled,
+	&.disabled {
+		pointer-events: none;
+		cursor: not-allowed;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+}
+
+/* BUTTON PRIMARY
+-------------------------------------------- */
+
+.ptf-btn.ptf-btn--primary {
+	color: var(--ptf-primary-color);
+	background-color: var(--ptf-secondary-color);
+
+	&:hover {
+		color: var(--ptf-secondary-color);
+		background-color: var(--ptf-primary-color);
+	}
+
+}
+
+/* BUTTON SECONDARY
+-------------------------------------------- */
+
+.ptf-btn.ptf-btn--secondary {
+	color: var(--ptf-primary-color);
+	background-color: transparent;
+	box-shadow: inset 0 0 0 1px var(--ptf-primary-color);
+
+	&:hover {
+		color: var(--ptf-primary-color);
+		background-color: var(--ptf-secondary-color);
+		box-shadow: inset 0 0 0 1px var(--ptf-secondary-color);
+	}
+
+}
+
+/* BUTTON SIZES
+-------------------------------------------- */
+
+.ptf-btn,
+.ptf-btn--md {
+	padding: 18px 42px;
+}

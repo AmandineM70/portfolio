@@ -1,0 +1,34 @@
+/* WIDGET: TESTIMONIAL
+-------------------------------------------- */
+
+.ptf-testimonial {
+
+	&__text {
+		font-size: 15px;
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+
+	}
+
+	&__meta {
+		margin-top: 50px;
+	}
+
+	&__name {
+		margin: 0;
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 1.3;
+	}
+
+	&__function {
+		margin-top: 10px;
+		font-size: 15px;
+		text-transform: uppercase;
+		color: var(--ptf-secondary-color);
+		line-height: 1.3;
+	}
+
+}

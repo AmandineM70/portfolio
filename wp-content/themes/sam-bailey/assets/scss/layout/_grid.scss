@@ -1,0 +1,78 @@
+/* LAYOUT: GRID
+-------------------------------------------- */
+
+@media (min-width: 1400px) {
+
+	.container {
+		max-width: 1320px;
+	}
+
+}
+
+/* MAIN
+-------------------------------------------- */
+
+.ptf-main {
+	position: relative;
+	overflow: hidden;
+
+	&--padding {
+		padding: 140px 0;
+
+		@include mq('large') {
+			padding: 100px 0;
+		}
+
+	}
+
+}
+
+/* PROTECTED CONTENT
+-------------------------------------------- */
+
+.ptf-content-protected {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 100px 0;
+}
+
+/* MARKUP CONTENT
+-------------------------------------------- */
+
+.ptf-content-markup {
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	ul,
+	ol {
+		line-height: 2;
+
+		ul,
+		ol {
+			padding-left: 30px;
+			margin-bottom: 0;
+		}
+
+	}
+
+	>ul,
+	>ol {
+		margin-bottom: 30px;
+	}
+
+	.fluid-width-video-wrapper {
+		margin-bottom: 30px;
+	}
+
+}
+
+/* ELEMENTOR
+-------------------------------------------- */
+
+.elementor-column-gap-extended>.elementor-column>.elementor-element-populated {
+	padding: 0 15px !important;
+}

@@ -1,0 +1,28 @@
+/* ANCHOR: COLORS
+-------------------------------------------- */
+
+.has-primary-color {
+	color: var(--ptf-primary-color);
+}
+
+.has-secondary-color {
+	color: var(--ptf-secondary-color);
+}
+
+/* MESSAGE COLORS
+-------------------------------------------- */
+
+.message.success {
+	color: var(--ptf-primary-color);
+}
+
+.message.danger {
+	color: var(--ptf-secondary-color);
+}
+
+/* GAPS
+-------------------------------------------- */
+
+.ptf-gap-30 {
+	@include gap(30px);
+}

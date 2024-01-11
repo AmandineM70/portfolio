@@ -1,0 +1,66 @@
+/* WIDGET: VIDEO BUTTON
+-------------------------------------------- */
+
+.ptf-video-button {
+	color: var(--ptf-primary-color);
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		height: 105px;
+		width: 105px;
+		color: currentColor;
+		background-color: transparent;
+		outline: none;
+		z-index: 1;
+
+		@include mq('large') {
+			height: 80px;
+			width: 80px;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			background-color: var(--ptf-secondary-color);
+			transition: transform 300ms;
+			z-index: -1;
+		}
+
+		svg {
+			display: inline-block;
+			height: 30px;
+			margin-left: .5em;
+			transition: inherit;
+			backface-visibility: hidden;
+
+			@include mq('large') {
+				height: 15px;
+				margin-left: .25em;
+			}
+
+		}
+
+		&:hover {
+
+			svg {
+				transform: scale(1.2);
+				transition-delay: 150ms;
+			}
+
+			&::after {
+				transform: scale(1.1);
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,40 @@
+/* WIDGET: SLIDER CONTROLS
+-------------------------------------------- */
+
+.ptf-slider-controls {
+	line-height: 1;
+	font-size: 0;
+
+	.ptf-swiper-button-prev,
+	.ptf-swiper-button-next {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 40px;
+		width: 40px;
+		color: var(--ptf-primary-color);
+		background-color: transparent;
+		transition: all 300ms ease-out;
+		cursor: pointer;
+
+		&[aria-disabled=true] {
+			opacity: 0.35;
+			cursor: auto;
+			pointer-events: none;
+		}
+
+		&:focus {
+			outline: none;
+		}
+
+		svg {
+			height: 40px;
+		}
+
+	}
+
+	.ptf-swiper-button-prev+.ptf-swiper-button-next {
+		margin-left: 40px;
+	}
+
+}

@@ -1,0 +1,42 @@
+/* WIDGET: PROGRESS BAR
+-------------------------------------------- */
+
+.ptf-progress-bar {
+	--ptf-final-value: 0;
+
+	&__title {
+		margin: 0 0 15px;
+		font-size: 15px;
+		font-weight: normal;
+		text-transform: uppercase;
+
+		>span {
+			float: right;
+
+			&::after {
+				content: '%';
+			}
+
+		}
+
+	}
+
+	&__bar {
+		position: relative;
+		width: 100%;
+		height: 4px;
+		background-color: var(--ptf-primary-color);
+		overflow: hidden;
+
+		span {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: var(--ptf-final-value);
+			background-color: var(--ptf-secondary-color);
+		}
+
+	}
+
+}

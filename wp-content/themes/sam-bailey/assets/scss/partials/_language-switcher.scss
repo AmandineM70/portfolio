@@ -1,0 +1,17 @@
+/* PARTIAL: LANGUAGE SWITCHER
+-------------------------------------------- */
+
+.ptf-language-switcher {
+	font-size: 13px;
+	text-transform: uppercase;
+	pointer-events: auto;
+
+	a.is-active {
+		color: var(--ptf-secondary-color);
+	}
+
+	a+a {
+		margin-left: 13px;
+	}
+
+}

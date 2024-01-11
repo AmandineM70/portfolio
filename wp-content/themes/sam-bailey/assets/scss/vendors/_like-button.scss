@@ -1,0 +1,45 @@
+/* VENDOR: LIKE BUTTON
+-------------------------------------------- */
+
+.ptf-like-button {
+	display: inline-flex;
+	flex-direction: column;
+	text-align: center;
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 120px;
+		width: 120px;
+		color: var(--ptf-primary-color);
+		border-radius: 50%;
+		background-color: var(--ptf-secondary-color);
+
+		svg {
+			height: 40px;
+		}
+
+		&:not(.liked):hover {
+			color: var(--ptf-secondary-color);
+			background-color: var(--ptf-primary-color);
+
+			svg {
+				animation: ptf_heartbeat 2s linear infinite;
+			}
+
+		}
+
+	}
+
+	&__counter {
+		margin: 25px 0 0;
+		color: var(--ptf-primary-color);
+		visibility: hidden;
+	}
+
+	.liked+.ptf-like-button__counter {
+		visibility: visible;
+	}
+
+}

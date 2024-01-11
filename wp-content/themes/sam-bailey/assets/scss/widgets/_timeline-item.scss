@@ -1,0 +1,41 @@
+/* WIDGET: TIMELINE ITEM
+-------------------------------------------- */
+
+.ptf-timeline-item {
+	padding: 40px 0;
+	border-top: 1px solid var(--ptf-primary-color);
+	border-bottom: 1px solid var(--ptf-primary-color);
+
+	@include mq('large') {
+
+		.row>*+* {
+			margin-top: 20px;
+		}
+
+	}
+
+	&+& {
+		margin-top: -1px;
+	}
+
+	&__date,
+	&__title {
+		margin: 0;
+		font-weight: normal;
+	}
+
+	&__text {
+		padding-right: 25px;
+		font-size: 15px;
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+
+		@include mq('xlarge') {
+			margin-top: 10px;
+		}
+
+	}
+
+}

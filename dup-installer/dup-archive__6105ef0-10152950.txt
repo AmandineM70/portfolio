@@ -1,0 +1,1139 @@
+{
+    "CL_-=_-=": "Duplicator\\Installer\\Package\\ArchiveDescriptor",
+    "dup_type": "pro",
+    "created": "2024-01-10 15:30:14",
+    "version_dup": "4.5.14.2",
+    "version_wp": "6.4.2",
+    "version_db": "8.0.30",
+    "version_php": "8.1.10",
+    "version_os": "WINNT",
+    "blogname": "Art Demangel",
+    "exportOnlyDB": false,
+    "secure_on": 0,
+    "secure_pass": "",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorSubsite",
+            "id": 1,
+            "domain": "portfolio.test",
+            "path": "\/",
+            "blogname": "Art Demangel",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "CL_-=_-=": "stdClass",
+                    "ID": "1",
+                    "user_login": "art_mirandine",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/portfolio.test",
+            "fullSiteUrl": "http:\/\/portfolio.test",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "C:\\laragon\\www\\portfolio\/wp-content\/uploads",
+            "fullUploadSafePath": "C:\/laragon\/www\/portfolio\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/portfolio.test\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 800,
+    "license_type": 3,
+    "dbInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBInfo",
+        "buildMode": "PHPCHUNKING",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_general_ci",
+            "utf8mb4_0900_ai_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB",
+            "MEMORY"
+        ],
+        "isTablesUpperCase": false,
+        "lowerCaseTableNames": 1,
+        "isNameUpperCase": false,
+        "name": "portfolio",
+        "tablesBaseCount": 44,
+        "tablesFinalCount": 44,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 5013,
+        "tablesSizeOnDisk": 9846784,
+        "tablesList": {
+            "wp_commentmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6",
+                "insertedRows": 6,
+                "size": 49152
+            },
+            "wp_comments": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "6",
+                "insertedRows": 6,
+                "size": 98304
+            },
+            "wp_duplicator_backups": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 147456
+            },
+            "wp_duplicator_entities": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "7",
+                "insertedRows": 7,
+                "size": 163840
+            },
+            "wp_e_events": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_e_submissions": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 262144
+            },
+            "wp_e_submissions_actions_log": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_e_submissions_values": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_links": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "325",
+                "insertedRows": 389,
+                "size": 3194880
+            },
+            "wp_postmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "3855",
+                "insertedRows": 4452,
+                "size": 1916928
+            },
+            "wp_posts": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "421",
+                "insertedRows": 530,
+                "size": 2752512
+            },
+            "wp_smush_dir_images": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_snippets": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "2",
+                "insertedRows": 2,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "59",
+                "insertedRows": 64,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "18",
+                "insertedRows": 21,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_terms": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "19",
+                "insertedRows": 21,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "35",
+                "insertedRows": 37,
+                "size": 49152
+            },
+            "wp_users": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wfblockediplog": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfblocks7": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wfconfig": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "228",
+                "insertedRows": 229,
+                "size": 16384
+            },
+            "wp_wfcrawlers": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wffilechanges": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wffilemods": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfhits": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wfhoover": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfissues": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wfknownfilelist": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wflivetraffichuman": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wflocs": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wflogins": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_wfls_2fa_secrets": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfls_role_counts": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 0
+            },
+            "wp_wfls_settings": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "30",
+                "insertedRows": 30,
+                "size": 16384
+            },
+            "wp_wfnotifications": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "1",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wfpendingissues": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wfreversecache": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wfsecurityevents": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfsnipcache": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wfstatus": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wftrafficrates": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wfwaffailures": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorDBTableInfo",
+                "inaccurateRows": "0",
+                "insertedRows": 0,
+                "size": 16384
+            }
+        },
+        "dbEngine": "MySQL",
+        "version": "8.0.30",
+        "versionComment": "MySQL Community Server - GPL",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPackageInfo",
+        "packageId": 1,
+        "packageName": "20240110_artdemangel",
+        "packageHash": "6105ef0-10152950",
+        "secondaryHash": "6b40cca-10152950"
+    },
+    "fileInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorFileInfo",
+        "dirCount": 2073,
+        "fileCount": 11283,
+        "size": 226858441
+    },
+    "wpInfo": {
+        "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorWpInfo",
+        "version": "6.4.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "C:\/laragon\/www\/portfolio",
+        "targetPaths": [
+            "C:\/laragon\/www\/portfolio"
+        ],
+        "adminUsers": [
+            {
+                "CL_-=_-=": "stdClass",
+                "ID": "1",
+                "user_login": "art_mirandine",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "CL_-=_-=": "stdClass",
+            "defines": {
+                "CL_-=_-=": "stdClass",
+                "ABSPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "UP0LideXXgiNutJHX91f5VsJOaVWppDqdZpLSLtq1hl51NuJNeHUOJAFnqsb9Txx",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "LloRunY3JmCSmc5DsRJl5iiwd34KL5c9SqmO3I5lMtTrRXBmcWk68ANVqcZjFTSO",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "afQX8uUaLgsBrR0PDTHg2rTjhZesMTqGL5tDFwYzvE0OSpsjuLTBDmnd4URmBMNi",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "jGeq0MfpjgLYBy8pLfHREIbpPJpXHTEHWkLOIS0IeDJ49YqbkWBQXSLjsJ9jlae9",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "7xNnyEi4Z3iRVQZ6majemlQtTkXC00TWMNjP6WnoZ8eh0ANzSXW4r2BR3DqQwJN0",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "VdHomabVItfk2l7pptuXdR7o84iQ3BMU3K5lRXMbKWg6AZ35lOWKOv9LQYlbn2KO",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "RG3rZAtUWwb9yJFePpakXTRlGXMRfn1AJ79qxFNBsMITlXKezTL9FRoKMdUo14RS",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "syxX1zsiimnrgH9bISttNh1hKJE4Yqet6Eslx7Ryc87HR1RTtOdvFO7aSwub4h78",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/portfolio.test",
+                    "inWpConfig": true
+                },
+                "WP_HOME": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/portfolio.test",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/portfolio.test\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/portfolio.test\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "CL_-=_-=": "stdClass",
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content\/themes\/sam-bailey",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content\/themes\/sam-bailey-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "CL_-=_-=": "stdClass",
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "CL_-=_-=": "stdClass",
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "C:\\laragon\\www\\portfolio\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "http:\/\/portfolio.test\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "CL_-=_-=": "stdClass",
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "CL_-=_-=": "stdClass",
+                "siteUrl": "http:\/\/portfolio.test",
+                "homeUrl": "http:\/\/portfolio.test",
+                "loginUrl": "http:\/\/portfolio.test\/kiss2005\/",
+                "contentUrl": "http:\/\/portfolio.test\/wp-content",
+                "uploadBaseUrl": "http:\/\/portfolio.test\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/portfolio.test\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/portfolio.test\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/portfolio.test\/wp-content\/themes",
+                "originalPaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "C:\/laragon\/www\/portfolio",
+                    "abs": "C:\\laragon\\www\\portfolio",
+                    "wpconfig": "C:\/laragon\/www\/portfolio",
+                    "wpcontent": "C:\\laragon\\www\\portfolio\/wp-content",
+                    "uploads": "C:\\laragon\\www\\portfolio\/wp-content\/uploads",
+                    "plugins": "C:\\laragon\\www\\portfolio\/wp-content\/plugins",
+                    "muplugins": "C:\\laragon\\www\\portfolio\/wp-content\/mu-plugins",
+                    "themes": "C:\\laragon\\www\\portfolio\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "CL_-=_-=": "stdClass",
+                    "home": "C:\/laragon\/www\/portfolio",
+                    "abs": "C:\/laragon\/www\/portfolio",
+                    "wpconfig": "C:\/laragon\/www\/portfolio",
+                    "wpcontent": "C:\/laragon\/www\/portfolio\/wp-content",
+                    "uploads": "C:\/laragon\/www\/portfolio\/wp-content\/uploads",
+                    "plugins": "C:\/laragon\/www\/portfolio\/wp-content\/plugins",
+                    "muplugins": "C:\/laragon\/www\/portfolio\/wp-content\/mu-plugins",
+                    "themes": "C:\/laragon\/www\/portfolio\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-custom-fields-pro\/acf.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "advanced-custom-fields-pro\/acf.php",
+                "name": "Advanced Custom Fields PRO",
+                "version": "5.9.5",
+                "pluginURI": "https:\/\/www.advancedcustomfields.com",
+                "author": "Elliot Condon",
+                "authorURI": "https:\/\/www.advancedcustomfields.com",
+                "description": "Customize WordPress with powerful, professional and intuitive fields.",
+                "title": "Advanced Custom Fields PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "change-wp-admin-login\/change-wp-admin-login.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "change-wp-admin-login\/change-wp-admin-login.php",
+                "name": "Change wp-admin login",
+                "version": "1.1.8",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/change-wp-admin-login\/",
+                "author": "wpexpertsio",
+                "authorURI": "https:\/\/wpexperts.io\/",
+                "description": "Change wp-admin login to whatever you want. example: http:\/\/www.example.com\/my-login. Go under Settings and then click on \"Permalinks\" and change your URL under \"Change wp-admin login\".",
+                "title": "Change wp-admin login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "code-snippets\/code-snippets.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "code-snippets\/code-snippets.php",
+                "name": "Code Snippets",
+                "version": "3.6.2",
+                "pluginURI": "https:\/\/codesnippets.pro",
+                "author": "Code Snippets Pro",
+                "authorURI": "https:\/\/codesnippets.pro",
+                "description": "An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!",
+                "title": "Code Snippets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.5",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicate-page\/duplicatepage.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "duplicate-page\/duplicatepage.php",
+                "name": "Duplicate Page",
+                "version": "4.5.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/duplicate-page\/",
+                "author": "mndpsingh287",
+                "authorURI": "https:\/\/profiles.wordpress.org\/mndpsingh287\/",
+                "description": "Duplicate Posts, Pages and Custom Posts using single click.",
+                "title": "Duplicate Page",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.5.14.2",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.18.3",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor-pro\/elementor-pro.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "elementor-pro\/elementor-pro.php",
+                "name": "Elementor Pro",
+                "version": "3.17.1",
+                "pluginURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/go.elementor.com\/wp-dash-wp-plugins-author-uri\/",
+                "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
+                "title": "Elementor Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "gtranslate\/gtranslate.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "gtranslate\/gtranslate.php",
+                "name": "GTranslate",
+                "version": "3.0.5",
+                "pluginURI": "https:\/\/gtranslate.io\/?xyz=998",
+                "author": "Translate AI Multilingual Solutions",
+                "authorURI": "https:\/\/gtranslate.io",
+                "description": "Translate your website and make it multilingual. For support visit <a href=\"https:\/\/wordpress.org\/support\/plugin\/gtranslate\">GTranslate Support Forum<\/a>.",
+                "title": "GTranslate",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "intuitive-custom-post-order\/intuitive-custom-post-order.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "intuitive-custom-post-order\/intuitive-custom-post-order.php",
+                "name": "Intuitive Custom Post Order",
+                "version": "3.1.5",
+                "pluginURI": "http:\/\/hijiriworld.com\/web\/plugins\/intuitive-custom-post-order\/",
+                "author": "hijiri",
+                "authorURI": "http:\/\/hijiriworld.com\/web\/",
+                "description": "Intuitively, Order Items (Posts, Pages, ,Custom Post Types, Custom Taxonomies, Sites) using a Drag and Drop Sortable JavaScript.",
+                "title": "Intuitive Custom Post Order",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "kirki\/kirki.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "kirki\/kirki.php",
+                "name": "Kirki Customizer Framework",
+                "version": "5.0.0",
+                "pluginURI": "https:\/\/themeum.com",
+                "author": "Themeum",
+                "authorURI": "https:\/\/themeum.com",
+                "description": "The Ultimate WordPress Customizer Framework",
+                "title": "Kirki Customizer Framework",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "one-click-demo-import\/one-click-demo-import.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "one-click-demo-import\/one-click-demo-import.php",
+                "name": "One Click Demo Import",
+                "version": "3.2.0",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/one-click-demo-import\/",
+                "author": "OCDI",
+                "authorURI": "https:\/\/ocdi.com",
+                "description": "Import your content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data.",
+                "title": "One Click Demo Import",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "piotnet-addons-for-elementor\/piotnet-addons-for-elementor.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "piotnet-addons-for-elementor\/piotnet-addons-for-elementor.php",
+                "name": "Piotnet Addons For Elementor",
+                "version": "2.4.25",
+                "pluginURI": "https:\/\/pafe.piotnet.com\/",
+                "author": "Piotnet",
+                "authorURI": "https:\/\/piotnet.com\/",
+                "description": "Piotnet Addons For Elementor (PAFE) adds many new features for Elementor",
+                "title": "Piotnet Addons For Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "regenerate-thumbnails\/regenerate-thumbnails.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "regenerate-thumbnails\/regenerate-thumbnails.php",
+                "name": "Regenerate Thumbnails",
+                "version": "3.1.6",
+                "pluginURI": "https:\/\/alex.blog\/wordpress-plugins\/regenerate-thumbnails\/",
+                "author": "Alex Mills (Viper007Bond)",
+                "authorURI": "https:\/\/alex.blog\/",
+                "description": "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme.",
+                "title": "Regenerate Thumbnails",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sambailey_helper_plugin\/sambailey_helper_plugin.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "sambailey_helper_plugin\/sambailey_helper_plugin.php",
+                "name": "Sam Bailey Helper Plugin",
+                "version": "1.0.0",
+                "pluginURI": "http:\/\/paul-themes.com\/",
+                "author": "paul_tf",
+                "authorURI": "http:\/\/themeforest.net\/user\/paul_tf",
+                "description": "Sam Bailey Helper Plugin expands the functionality of the theme. Adds new icons, shortcodes and much more.",
+                "title": "Sam Bailey Helper Plugin",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-smushit\/wp-smush.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "wp-smushit\/wp-smush.php",
+                "name": "Smush",
+                "version": "3.15.3",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/wp-smushit\/",
+                "author": "WPMU DEV",
+                "authorURI": "https:\/\/profiles.wordpress.org\/wpmudev\/",
+                "description": "Reduce image file sizes, improve performance and boost your SEO using the free <a href=\"https:\/\/wpmudev.com\/\">WPMU DEV<\/a> WordPress Smush API.",
+                "title": "Smush",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordfence\/wordfence.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "wordfence\/wordfence.php",
+                "name": "Wordfence Security",
+                "version": "7.11.1",
+                "pluginURI": "http:\/\/www.wordfence.com\/",
+                "author": "Wordfence",
+                "authorURI": "http:\/\/www.wordfence.com\/",
+                "description": "Wordfence Security - Anti-virus, Firewall and Malware Scan",
+                "title": "Wordfence Security",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wps-hide-login\/wps-hide-login.php": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorPlugin",
+                "slug": "wps-hide-login\/wps-hide-login.php",
+                "name": "WPS Hide Login",
+                "version": "1.9.11",
+                "pluginURI": "",
+                "author": "WPServeur, NicolasKulka, wpformation",
+                "authorURI": "https:\/\/wpserveur.net",
+                "description": "Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in",
+                "title": "WPS Hide Login",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "perfect-portfolio": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "perfect-portfolio",
+                "themeName": "Perfect Portfolio",
+                "version": "1.2.0",
+                "themeURI": "https:\/\/rarathemes.com\/wordpress-themes\/perfect-portfolio\/",
+                "parentTheme": false,
+                "template": "perfect-portfolio",
+                "stylesheet": "perfect-portfolio",
+                "description": "Perfect Portfolio is a free portfolio WordPress theme that will help you stand out from the crowd. This premium looking free theme is ideal for freelancers, photographers, digital marketers, agencies, graphic designers, video producers, web designers, web developers, and professional bloggers that want to depict their work in a beautiful layout. If you want to create an easy to use website to showcase your work, case studies, and achievement without writing a single line of code, this theme is perfect for you. Create a perfect portfolio with Perfect Portfolio WordPress theme. The theme also has an eye-catching blog layout which will help you show your expertise on your field through informative content. Perfect Portfolio comes with Schema friendly, Speed Optimized code topped with fully mobile-friendly layout that makes the theme ultra SEO ready, which means Google will love your website. The advanced features like Call To Action, services section, social media integration, WooCommerce integration, and so on is backed with quick human support whenever you face any issues. You will also get free demo content that you can import with a click with this theme. Check the demo at https:\/\/rarathemes.com\/previews\/?theme=perfect-portfolio\/, documentation at https:\/\/docs.rarathemes.com\/docs\/perfect-portfolio\/ and get support at https:\/\/rarathemes.com\/support-forum\/.",
+                "author": "Rara Theme",
+                "authorURI": "https:\/\/rarathemes.com\/",
+                "tags": [
+                    "blog",
+                    "one-column",
+                    "two-columns",
+                    "right-sidebar",
+                    "left-sidebar",
+                    "footer-widgets",
+                    "custom-background",
+                    "custom-menu",
+                    "custom-logo",
+                    "featured-images",
+                    "threaded-comments",
+                    "full-width-template",
+                    "rtl-language-support",
+                    "translation-ready",
+                    "theme-options",
+                    "e-commerce",
+                    "portfolio"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "sam-bailey-child": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "sam-bailey-child",
+                "themeName": "Sam Bailey Child",
+                "version": "1.0.0",
+                "themeURI": "",
+                "parentTheme": "sam-bailey",
+                "template": "sam-bailey",
+                "stylesheet": "sam-bailey-child",
+                "description": "This is a child theme of Sam Bailey.",
+                "author": "paul_tf",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "sam-bailey": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "sam-bailey",
+                "themeName": "Sam Bailey",
+                "version": "1.0.0",
+                "themeURI": "http:\/\/paul-themes.com\/wordpress\/sam-bailey\/",
+                "parentTheme": false,
+                "template": "sam-bailey",
+                "stylesheet": "sam-bailey",
+                "description": "Sam Bailey is a carefully crafted flexible, powerful and high performance CV\/Resume WordPress Theme for personal and corporate use. We designed it by focusing on functionality and ease of use for both sides: the Visitor and the WordPress Admin.",
+                "author": "paul_tf",
+                "authorURI": "https:\/\/themeforest.net\/user\/paul_tf",
+                "tags": [
+                    "one-column",
+                    "two-columns",
+                    "right-sidebar",
+                    "flexible-header",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-header",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "post-formats",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "CL_-=_-=": "Duplicator\\Installer\\Package\\DescriptorTheme",
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": 3,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": [
+        "duplicator_pro_ui_view_state",
+        "duplicator_pro_package_active",
+        "duplicator_pro_settings"
+    ],
+    "brand": {
+        "name": "Duplicator Professional",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator Pro",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "cpnl-dbaction": {
+            "value": "create"
+        }
+    },
+    "installer_base_name": "installer.php",
+    "installer_backup_name": "20240110_artdemangel_6105ef0d827075973294_20240110152950_installer-backup.php",
+    "package_name": "20240110_artdemangel_6105ef0d827075973294_20240110152950_archive.zip",
+    "package_hash": "6105ef0-10152950",
+    "package_notes": ""
+}
